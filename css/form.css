@@ -1,0 +1,748 @@
+ol li {
+  line-height: 6px;
+  list-style: none;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+ol ol li {
+  background: none;
+  border: none;
+  float: left;
+}
+
+label {
+  float: left;
+  font-size: 18px;
+  font-weight: bold;
+  width: 120px;
+}
+form#formulaire {
+  background: grey;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 20px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+
+form#formulaire fieldset {
+  border: none;
+  margin-bottom: 10px;
+}
+form#formulaire fieldset:last-of-type {
+  margin-bottom: 0;
+}
+
+form#formulaire legend {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+form#formulaire fieldset fieldset legend {
+  color: #111111;
+  font-size: 13px;
+  font-weight: normal;
+  padding-bottom: 0;
+}
+
+form#formulaire ol li {
+  background: #b9cf6a;
+  background: rgba(255,255,255,.3);
+  border-color: #e3ebc3;
+  border-color: rgba(255,255,255,.6);
+  border-style: solid;
+  border-width: 2px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  line-height: 30px;
+  list-style: none;
+  padding: 5px 10px;
+  margin-bottom: 2px;
+}
+form#formulaire ol ol li {
+  background: none;
+  border: none;
+  float: left;
+}
+
+
+form#formulaire label {
+  float: left;
+  font-size: 18px;
+  font-weight: bold;
+  width: 200px;
+}
+form#formulaire fieldset fieldset label {
+  background:none no-repeat left 50%;
+  line-height: 20px;
+  padding: 0 0 0 30px;
+  width: auto;
+}
+
+form#formulaire fieldset fieldset label:hover {
+  cursor: pointer;
+}
+
+
+form#formulaire input:not([type=radio]),
+form#formulaire textarea {
+  background: #ffffff;
+  border: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  font: italic 15px Georgia, "Times New Roman", Times, serif;
+  outline: none;
+  padding: 5px;
+  width: 200px;
+}
+form#formulaire input:not([type=submit]):focus,
+form#formulaire textarea:focus {
+  background: #eaeaea;
+}
+form#formulaire input[type=radio] {
+  float: left;
+  margin-right: 5px;
+}
+
+form#formulaire select{
+  background: #ffffff;
+  border: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  font: italic 15px Georgia, "Times New Roman", Times, serif;
+  outline: none;
+  padding: 5px;
+  width: 200px;
+}
+
+
+form#formulaire button {
+  background: #384313;
+  border: none;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -khtml-border-radius: 20px;
+  border-radius: 20px;
+  color: #ffffff;
+  display: block;
+  font: 18px Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 1px;
+  margin: auto;
+  padding: 7px 25px;
+  text-shadow: 0 1px 1px #000000;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+form#formulaire button:hover {
+  background: #1e2506;
+  cursor: pointer;
+}
+
+
+
+form#form {
+  background: #384313;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 20px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+form#form ol li {
+  background: #b9cf6a;
+  background: rgba(255,255,255,.3);
+  border-color: #e3ebc3;
+  border-color: rgba(255,255,255,.6);
+  border-style: solid;
+  border-width: 2px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  line-height: 30px;
+  list-style: none;
+  padding: 5px 10px;
+  margin-bottom: 2px;
+}
+form#form ol ol li {
+  background: none;
+  border: none;
+  float: left;
+}
+
+
+form#form label {
+  float: left;
+  font-size: 18px;
+  font-weight: bold;
+  width: 200px;
+}
+form#form fieldset fieldset label {
+  background:none no-repeat left 50%;
+  line-height: 20px;
+  padding: 0 0 0 30px;
+  width: auto;
+}
+
+form#form select{
+  background: #ffffff;
+  border: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  font: italic 15px Georgia, "Times New Roman", Times, serif;
+  outline: none;
+  padding: 5px;
+  width: 200px;
+}
+
+
+
+
+.alertes{
+  color: grey; 
+  background: url("img/alerte.jpg") no-repeat;
+  font-size: 18px; 
+  font-weight: bold; 
+  text-align: center; 
+  width: 500px; 
+  height: 30px;
+  padding-top: 5px;  
+  margin-left:0px; 
+  box-shadow: 2px 2px 2px;
+  border-radius: 10px;
+}
+
+.alerteV{
+  color: green; 
+  background: url("img/validation.jpg") no-repeat;
+  font-size: 14px; 
+  font-weight: bold; 
+  text-align: center; 
+  width: 300px; 
+  height: 30px;
+  padding-top: 5px;  
+  margin-left:0px; 
+  box-shadow: 20px 2px 20px;
+  border-radius: 10px;
+}
+
+#reccode{
+  border: 2px solid red;
+  border-right:3px solid red;
+  border-radius: 2px;
+  width: 70%;
+  height: 30px;
+  margin: auto;
+  margin-right: 0px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn0{
+  cursor: pointer;
+  width: 15%;
+}
+
+input#button{
+  text-align: center;
+  background: #384313;
+  border: none;
+  border-radius: 2px;
+  color: #ffffff;
+  display: block;
+  font: 18px Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 7px 25px;
+  text-shadow: 0 1px 1px #000000;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 5px;
+  width: 15px;
+}
+
+.entete{
+  margin-top: 20px;
+  color: white;
+  background-color: grey;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+table.tabliste{
+  background-color: white;
+  width: 100%;
+  color: #717375;
+  font-family: helvetica;
+  border-collapse: collapse; 
+  margin-top: 30px;     
+}
+.tabliste th {
+  line-height: 5mm;
+  border-bottom: 3px solid black;
+  color: white;
+  background-color: grey;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding-right: 30px;
+}
+.tabliste td {
+  border: 1px solid black;
+  border-bottom: 3px solid black;
+  line-height: 5mm;
+  text-align: right;
+  padding-right: 30px; 
+}
+
+
+table.tablistebul{
+  background-color: white;
+  width: 100%;
+  color: #717375;
+  font-family: helvetica;
+  border-collapse: collapse; 
+  margin-top: 30px;     
+}
+.tablistebul th {
+  line-height: 5mm;
+  border: 1px solid white;
+  border-bottom: 3px solid white;
+  color: white;
+  background-color: black;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.tablistebul td {
+  border: 1px solid black;
+  border-bottom: 3px solid black;
+  line-height: 5mm;
+  text-align: right;
+  padding-right: 10px; 
+  font-size: 14px;
+}
+
+table.buleleve{
+  background-color: white;
+  width: 100%;
+  color: #717375;
+  font-family: helvetica;
+  border-collapse: collapse; 
+  margin-top: 30px;     
+}
+.buleleve th {
+  line-height: 5mm;
+  border-bottom: 3px solid black;
+  color: white;
+  background-color: black;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.buleleve td {
+  border: 1px solid black;
+  border-bottom: 3px solid black;
+  line-height: 5mm;
+  text-align: right;
+  padding-right: 30px; 
+  font-size: 16px;
+}
+
+
+
+table.tranche {
+  background-color: white;
+  width: 100%;
+  color: #717375;
+  font-family: helvetica;
+  margin-top: 30px;     
+}
+.tranche th {
+  line-height: 10mm;
+  border: 3px solid #0FD1D2;
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.tranche td {
+  font-size: 16px;
+  border: 3px solid #0FD1D2;
+  line-height: 8mm;
+}
+
+
+
+table.payement {
+  background-color: white;
+  width: 100%;
+  color: #717375;
+  font-family: helvetica;
+  margin-top: 30px;     
+}
+.payement th {
+  line-height: 10mm;
+  border: 3px solid black;
+  color: white;
+  background-color: grey;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.payement td {
+  font-size: 18px;
+  border: 3px solid black;
+  line-height: 8mm;
+}
+
+.payement input {    
+  border-radius: 5px;
+  background: #f9f9f9;
+  font-size: 18px;
+  text-align: right;
+  padding-right: 5px;
+  color: grey;
+  height: 95%;
+  width:95%; 
+}
+
+.payement select {
+  width: 100px;
+  text-align: center;
+  border-bottom: 3px solid #0FD1D2;
+  line-height: 8mm;
+  padding-right: 30px;
+  height: 98%;
+}
+
+
+table.stock {
+  background-color: white;
+  width: 100%;
+  color: #717375;
+  font-family: helvetica;     
+}
+.stock th {
+  line-height: 6mm;
+  border: 3px solid black;
+  color: white;
+  background-color: black;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+.stock td {
+  border: 3px solid black;
+  font-size: 14px;
+  line-height: 4mm;
+}
+
+.stock input {    
+  border-radius: 2px;
+  background: #f9f9f9;
+  text-align: center;
+  font-size: 22px;
+  color: green;
+  font-weight: bold;
+  height: 25px;
+}
+
+
+table.statistique {
+  background-color: white;
+  width: 100%;
+  color: #717375;
+  font-family: helvetica;
+  margin-top: 30px;     
+}
+.statistique th {
+  border: 5px solid blue;
+  color: white;
+  background-color: grey;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 8mm;
+}
+.statistique td {
+  background-color: white;
+  color: black;
+  border: 5px solid blue;
+  line-height: 8mm;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+table.synthesecompta {
+  background-color: white;
+  width: 100%;
+  color: #717375;
+  font-family: helvetica;
+  margin-top: 30px;     
+}
+.synthesecompta th {
+  border: 5px solid white;
+  color: white;
+  background-color: grey;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 10mm;
+}
+.synthesecompta td {
+  background-color: grey;
+  color: white;
+  border: 5px solid white;
+  line-height: 10mm;
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+table.synthesecomptatype {
+  background-color: white;
+  width: 100%;
+  color: #717375;
+  font-family: helvetica;
+  margin: auto;     
+}
+.synthesecomptatype th {
+  border: 2px solid white;
+  color: white;
+  background-color: grey;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 8mm;
+}
+.synthesecomptatype td {
+  background-color: grey;
+  color: white;
+  border: 2px solid white;
+  line-height: 10mm;
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+
+
+.fichel{
+  font-size: 1.8em;
+  box-shadow: 10px 2px 20px;
+
+
+}
+
+
+.expoc{
+    display: flex;
+    flex-wrap: wrap;
+    width: 150%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 1px;
+    text-decoration: none;
+  }
+
+  .expoc>fieldset{
+    background-color: white;
+    border: 7px solid #000000;
+    box-shadow: 3px 3px 20px rgba(1, 255, 255, 0.9);
+    border-radius: 20px;
+    text-decoration: none;
+    width: 150%;
+    font-size: 20px;
+    font-weight: bold;  
+  }
+
+  .navsearch{
+    display: flex;
+    width: 100%;
+  }
+  .navsearch>.navs>a{
+    color: white;
+    text-decoration: none;
+  }
+  .expoline{
+    display: flex;
+    flex-wrap: wrap;
+  }
+    .boxc{
+     margin-right:-30px;
+     margin-top: 20px;
+     }
+   .boxc img{
+      width: 90px;
+      height: 60px;
+      border-radius:10px;
+    }
+
+
+    .logo a{
+      text-decoration: none; /*enlever le surlignage */
+      
+    }
+
+  .logo:hover{
+    border: 1px solid #e44d26;
+    background-color: rgba(228, 77, 38, 0.15);
+    padding: 0.5px;
+    width: 155px;
+  }
+  
+  .box img{
+    width: 100px;
+    height: 60px;
+    border-radius:10px;
+  }
+  .descript_logo{
+    border: 5px solid #0000a0;
+    box-shadow: 0px 1px 1px #1c1a99;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 10px 10px 20px rgba(255, 255, 255, 0.8);
+    text-align: center;
+    background-image: url('img/buttom.jpg');
+    color: black;
+    width: 155px;
+    height: 200px;
+  }
+
+    
+  .designation{
+    height: 30%;
+    font-size: 16px;
+  }
+  .picture{
+    height: 34%;
+  }
+  .pricebox{
+    margin-top: 5px;
+    height: 12%;
+    color:green;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    text-align: center;
+  }
+  .reste{
+   text-align:center;
+   font-size:16px;
+   color:green;
+  }
+     
+  
+    .restec{
+     text-align:center;
+     font-size:18px;
+     color:green;
+    }
+
+  .cmd{    
+    margin-top: 20px;
+    width: 100%;
+  }
+      
+    table.tabpanierc {
+      line-height: 3mm
+      background-color: white;
+      width: 100%;
+      color: #717375;
+      font-family: helvetica;
+      border-collapse: collapse;    
+      margin: auto;    
+    }
+    .tabpanierc th {;
+      border: 1px solid #CFD1D2;
+      color: white;
+      background-color: #A516BE;
+      font-weight: bold;
+      font-style: italic;
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+    }
+    .tabpanierc td {
+      line-height: 0mm;
+      background: #FFFFFF;
+      text-align: right;
+      font-size: 16px;
+      font-weight: bold;
+      font-style: italic;
+      padding: 1px;
+    }
+    .tabpanierc input {    
+      border-radius: 5px;
+      background: #f9f9f9;
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+      color: #717375;
+      width: 95%;
+      height: 98%;
+    }
+    
+    .imgc{
+      width: 3%;
+    }
+
+    .namec{
+      width: 41%;
+      font-size: 25px;
+      text-align: center;
+
+    }
+
+    .pricec{
+      width: 18%;
+      text-align: right;
+      font-size: 25px;
+    }
+
+    .quantityc{
+      width: 8%;
+
+    }
+
+    .pricetc{
+      width: 20%;
+      text-align: right;
+      font-size: 20px;
+    }
+
+    .supc{
+      text-align: right;
+      width: 7%;
+    }
+
+    .delc>img{
+      width: 30px;
+      height: 20px;
+    }
+
+

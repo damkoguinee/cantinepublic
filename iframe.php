@@ -1,0 +1,1 @@
+<embed src="https://www.codeur.com/tuto/wp-content/uploads/2022/02/pdf-test.pdf" width="800" height="500" type="application/pdf"/>

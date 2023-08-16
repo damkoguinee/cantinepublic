@@ -1,0 +1,227 @@
+.headconnex{
+  background-image: url('img/fouta.jpg');
+  background-size: cover;
+  height: 100vh; 
+}
+
+  .form_connexion{
+    margin: auto;
+    width: 70%;
+    height: 86vh;    
+    box-shadow: 2px 1px 10px;
+    background-image: url('img/fond.jpg');
+    padding-bottom: 100px;
+  }
+
+  .form_connexion input, select {    
+    border-radius: 10px;
+    background: #f9f9f9;
+    text-align: left;
+    font-size: 14px;
+    color: green;
+    font-weight: bold;
+    margin-left: 0px;
+  }
+
+  .drapeau{
+    width: 65%;
+    margin-left:20%;
+    margin-top: 5px;
+  }
+
+  .conex_employer{
+    width: 62%;
+    margin-left:20%;
+  }
+    .descriptl{
+      font-size: 14px;
+      margin-bottom: 15px;
+      font-style: italic;
+    }
+    .copyright{
+      float: right;
+    }
+    .copyright img{
+      width: 100px;
+    }
+
+
+
+.choix{
+    display:flex;
+    flex-wrap: wrap;
+    border: 0px solid #000000;
+    box-shadow: 3px 3px 10px rgba(1, 255, 255, 1);
+    margin:auto;
+    margin-top:0.5%;    
+    height: 50%;
+    width: 100%;
+    text-decoration: none;
+  }
+  
+   .option{
+     margin-left:30px;
+     margin-top: 10px;
+     background-color: gold;
+    }
+    .option>a {
+      text-decoration: none;
+      text-decoration-style: none;
+    } 
+    
+    .option img{
+      width: 180px;
+      height: 160px;
+    }
+
+    .picturec{
+      height: 85%;
+    }
+          
+    .descript_option{
+      color: black;
+      font-size: 20px;
+      font-style: italic;
+      font-weight: bold;
+      font-family:cursive;
+      text-align: center;
+      margin-left: 1px;
+      margin-right: 1px;
+
+      box-shadow: 3px 3px 10px;
+    } 
+    .option:hover{
+      border: 1px solid #e44d26;
+      background-color: rgba(228, 77, 38, 0.15);
+      padding: 1px;
+    }
+
+#header {
+  background: url("img/bg-header.png") repeat;
+  height: 50px;
+  display: flex;
+  flex-wrap: nowrap;
+  width:100%;
+  margin-top:-5px;
+}
+
+  .menu{
+    width:8%;
+  }
+
+  .nav{
+    width:82%; 
+  }
+
+  .dec{
+    width:10%; 
+  }
+  #header div.menu {
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+  }
+    #header div.menu a.logo {
+      background-color: red;      
+      font-family: 'AllerRegular';
+      font-size: 20px;
+      height: 40px;
+      font-weight:bold;
+      color: #FFF;
+      text-decoration: none;
+      box-shadow: 2px 2px 5px;
+      text-align: center;
+      float: left;
+      text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8); 
+    }
+
+  #header div.nav {
+    height: 40px;
+    line-height: 40px;    
+    color: #FFF;
+    margin-left: 2%;
+    display: flex;
+    flex-wrap: nowrap;
+    float: right;
+  }
+    #header div.nav a.logo {
+      background-color: red;
+      font-size: 20px;
+      font-weight: bold;
+      color: #FFF;
+      text-decoration: none;
+      text-align: center;      
+      text-shadow: 1px 1px 0px rgba(100, 0, 0, 0.8);
+      box-shadow: 2px 2px 5px;
+      border-radius: 10px;
+      margin-left: 2%;
+    }
+
+  .deconnexion {
+    background: url("img/deconn.jpg") no-repeat;
+    width: 50px;
+    height: 40px;
+    margin-top: 1px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px ;
+    float: right;
+  }
+
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-right: 30px;
+   
+  }
+
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-right: 30px;
+  }
+
+  .choixg{
+    background-color: white;
+    box-shadow: 3px 3px 20px rgba(1, 255, 255, 0.9);
+    margin:auto;    
+    border-radius: 0px;
+    height: 20%;
+    text-decoration: none;
+    width: 100%;
+  }
+
+ .optiong{
+   margin-top: 10px;
+  }
+  
+  .optiong img{
+    width: 150px;
+    height: 150px;
+    border-radius:20px;
+  }
+        
+  .descript_optiong{
+    box-shadow: 0px 2px 3px #1c1a99;
+    font-size: 18px;
+    font-style: initial;
+    font-weight: bold;
+    text-shadow: 10px 10px 20px rgba(255, 255, 255, 0.8);
+    text-align: center;
+    float: center;
+    padding: 8px;
+    background: url("img/boxfull.png") no-repeat;
+    margin-left: 3px;
+    margin-right: 1px;
+    margin-bottom:15px;
+   
+  }
+
+  .optiong>a {
+    text-decoration: none;
+    text-decoration-style: none;
+
+  } 
+  
+
